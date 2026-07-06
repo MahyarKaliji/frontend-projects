@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playpen Sans Hebrew";
+}
+
+body {
+  color: #222;
+  font-weight: 550;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+    color: #999;
+}
+
+main {
+  margin: 4rem;
+  border: 3px solid #222;
+  padding: 2rem 4rem;
+  min-height: calc(100vh - 4rem);
+}
+
+.title {
+  color: #3bcb00;
+  margin-block: 1rem 0.8rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.item-name {
+  color: blue;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
