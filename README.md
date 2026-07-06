@@ -5,3 +5,9 @@
 Sample solution for the [single-page-cv](https://roadmap.sh/projects/single-page-cv) challenge from [roadmap.sh](https://roadmap.sh/).
 
 ---
+
+- [Theme Switcher with CSS Variables](https://github.com/MahyarKaliji/frontend-projects/tree/main/theme-switcher-with-css-variables) - _Javascript (Node.js)_
+
+Sample solution for the [theme-switcher-with-css-variables](https://roadmap.sh/projects/theme-switcher-with-css-variables) challenge from [roadmap.sh](https://roadmap.sh/).
+
+---
