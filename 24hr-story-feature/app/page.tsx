@@ -7,20 +7,9 @@ import { Story } from "@/types/story";
 import { ChangeEvent, useRef } from "react";
 
 export default function Home() {
-  // const [stories, setStories] = useState<Story[]>(() => {
-  //   const stored = getStories();
-  //   return removeExpiredStories(stored);
-  // });
-
-  // const stories = useStoryStore((state) => state.stories);
-  // const setStories = useStoryStore((state) => state.setStories);
   const addStory = useStoryStore((state) => state.addStory);
 
   const inputRef = useRef<HTMLInputElement | null>(null);
-
-  // useEffect(() => {
-  //   saveStories(stories);
-  // }, [stories]);
 
   const handlePick = () => {
     inputRef.current?.click();

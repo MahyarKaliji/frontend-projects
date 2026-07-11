@@ -48,7 +48,7 @@ export const Modal = ({ isOpen, title, onClose, children }: ModalProps) => {
         <div>{children}</div>
 
         {/* Footer */}
-        <div>Footer</div>
+        {/* <div>Footer</div> */}
       </div>
     </div>,
     document.body,

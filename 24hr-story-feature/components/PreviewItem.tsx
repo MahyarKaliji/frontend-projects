@@ -22,14 +22,11 @@ export const PreviewItem = ({ story }: { story: Story }) => {
   const startTimer = () => {
     if (timerRef.current) clearInterval(timerRef.current);
     timerRef.current = setInterval(() => {
-      console.log(story.id);
-      // console.log(nextStory());
       nextStory();
     }, 3000);
   };
 
   const handleClose = () => {
-    console.log("currentStory - handleClose", currentStory);
     setModalOpen(false);
     resetStory();
     if (timerRef.current) {
@@ -51,7 +48,6 @@ export const PreviewItem = ({ story }: { story: Story }) => {
       stories.length > 0 &&
       currentIndex === stories.length - 1
     ) {
-      console.log("Last Item");
       // eslint-disable-next-line react-hooks/set-state-in-effect
       handleClose();
       if (timerRef.current) {
@@ -65,7 +61,6 @@ export const PreviewItem = ({ story }: { story: Story }) => {
   const handleRealClick = () => {
     setModalOpen(true);
     const index = stories.findIndex((s) => s.id === story.id);
-    console.log(index);
     setCurrentStoryByIndex(index);
     startTimer();
   };
