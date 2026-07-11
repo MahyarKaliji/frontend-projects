@@ -2,7 +2,7 @@
 
 - [24hr Story Feature](https://github.com/MahyarKaliji/frontend-projects/tree/main/24hr-story-feature) - _Javascript (Node.js)_
 
-Sample solution for the [24hr-story-feature](https://roadmap.sh/projects/24hr-story-feature) challenge from [roadmap.sh](https://roadmap.sh/).
+Sample solution for the [24hr-story-feature](https://roadmap.sh/projects/stories-feature) challenge from [roadmap.sh](https://roadmap.sh/).
 
 ---
 
